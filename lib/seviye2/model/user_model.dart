@@ -1,8 +1,8 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-class UserModel {
+class Usermodel {
   String name;
   String password;
-  UserModel({
+  Usermodel({
     required this.name,
     required this.password,
   });

@@ -14,7 +14,7 @@ class UserHomeScreen extends StatelessWidget {
         title: const Text('User Home Screen'),
       ),
       body: Center(
-        child: BlocBuilder<UserCubit, UserModel?>(
+        child: BlocBuilder<UserCubit, Usermodel?>(
           builder: (context, state) {
             var cardColor = context.read<SwitchCubit>().state;
             if (state != null) {
